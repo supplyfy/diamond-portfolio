@@ -1,20 +1,13 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { IoConstructOutline } from "react-icons/io5";
 import { AiFillProject } from 'react-icons/ai'
 import React, { useRef } from "react";
 import ImageDiamond from '@/public/images/LogoPrincipal.png'
 
 
-// const inter = Inter({ subsets: ['latin'] })
-
-
-
 export default function Home() {
-
 
   return (
     <>
